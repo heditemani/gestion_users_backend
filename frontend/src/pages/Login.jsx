@@ -58,7 +58,7 @@ function Login() {
                             name="username"
                             value={formData.username}
                             onChange={handleChange}
-                            placeholder="Hot username mta3ek..."
+                            placeholder="username"
                             className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                             required
                         />
@@ -72,7 +72,7 @@ function Login() {
                             name="password"
                             value={formData.password}
                             onChange={handleChange}
-                            placeholder="Hot password mta3ek..."
+                            placeholder="Password"
                             className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                             required
                         />
